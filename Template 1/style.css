@@ -211,7 +211,25 @@ header {
     gap: 20px;
     max-width: ;
     text-align: center;
+}
 
+/* big feature section */
+
+.big-feature-section {
+    padding: 30px var(--padding-inline-section) 0;
+}
+
+.big-feature-container {
+    gap: 30px;
+}
+
+.feature-img img {
+    width: 100%;
+}
+
+.feature-desc {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 
