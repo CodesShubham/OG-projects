@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+/*presets*/
+
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +45,12 @@ a {
     display: inline-block;
 }
 
+ul {
+    list-style: none;
+}
+
+/*utility*/
+
 .small-bold-text {
     font-size: 1rem;
     font-weight: 700;
@@ -54,6 +62,13 @@ a {
     padding-inline: var(--padding-inline-section);
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+/* top banner */
+
 .top-banner {
     background-image: url();
     background-color: #4fb3d4;
@@ -64,6 +79,27 @@ a {
     color: white;
     padding: 15px 30px;
     text-align: center;
+}
+
+/* navbar */
+
+.main-nav {
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.company-logo img {
+    width: 200px;
+}
+
+.nav-links {
+    flex-basis: 730px;
+}
+
+.nav-links ul {
+    justify-content: end;
+    gap: 40px;
+
 }
 
 
