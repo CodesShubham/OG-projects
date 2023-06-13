@@ -107,7 +107,7 @@ ul {
 /* top banner */
 
 .top-banner {
-    background-image: url();
+    background-image: url(./assets/asset\ 32.png);
     background-color: #4fb3d4;
     background-size: 300px;
 }
@@ -180,6 +180,38 @@ header {
 
 .logo {
     height: 46px;
+}
+
+/* features section*/
+
+.features-section {
+    padding: 80px var(--padding-inline-section) 0;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-header {
+    text-align: center;
+}
+
+.features-header h2 {
+    margin-bottom: 20px;
+}
+
+.features-area {
+    flex-wrap: ;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.features-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: ;
+    text-align: center;
+
 }
 
 
