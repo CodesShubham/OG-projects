@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -53,6 +55,10 @@
 #navbar ul li a:hover {
     color: black;
     background-color: white;
+}
+
+.item {
+    font-family: 'Encode Sans', sans-serif;
 }
 
 /* home section */
